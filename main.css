@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 36px;
+}
+header {
+    background-color: rgba(105, 13, 167, 0.897);
+    padding: 25px;
+    font-family: 'Playfair Display', serif;
+    color: azure;
+    font: bolder;
+}
+
+footer {
+    background-color: rgba(105, 13, 167, 0.897);
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    color: azure;
+    font: bolder;
+}
+
+/* font-family: 'Oxygen', sans-serif; */
+
+
+.places {
+    height: 300px;
+    width: 40%;
+    margin-left: 10px;
+    padding: 0;
+    display: inline-block;
+}
+
+img.places {
+    float: left;
+}
+
+h2, h3 {
+    margin: 30px 20px;
+    font-family: 'Oxygen', sans-serif; 
+    color:  rgba(105, 13, 167, 0.897);
+}
+
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li a {
+    padding: 0 15px;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+    color: azure;
+}
+
+header nav li {
+    display: inline;    
+    font-size: 16px;   
+}
+
+.banner img{
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+li {
+    list-style: none;
+}
+
+.cidade, .praias, .piscinas {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+
+.paragrafos, p {
+    display: inline-block;
+    margin: 20px;
+    max-width: 90%;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif; 
+}
+
+
+
+.social-links img {
+    height: 24px;
+    margin-left: 8px;
+}
+
+.social-links li {
+    display: inline;
+    margin-left: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+#contact .container {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+
+.contact-methods {
+    display: block;
+    
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgba(105, 13, 167, 0.897);
+    color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(79, 20, 117, 0.897);;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgba(105, 13, 167, 0.897);;
+}
+
